@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/colorMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_color_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgColors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RadioButton android:id="@+id/rbRojo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_rojo" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbAzul" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_azul" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbVerde" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_verde" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbAmarillo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_amarillo" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbNegro" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_negro" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbBlanco" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_blanco" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbMorado" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_morado" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbCyan" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_cyan" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbMagenta" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_magenta" android:textSize="20sp" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbGris" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_gris" android:textSize="20sp" android:padding="10dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_text"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/background_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_title"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_quiz"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginBottom="4dp"/>
+    <Button
+        android:id="@+id/btnGoToQuiz"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_quiz"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_colors"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginBottom="4dp"/>
+    <Button
+        android:id="@+id/btnGoToColors"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_colors"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/secondary"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_calculadora"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginBottom="4dp"/>
+    <Button
+        android:id="@+id/btnGoToCalculadora"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_calculadora"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_text"
+        android:textSize="14sp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/gray"/>
+
+</LinearLayout>

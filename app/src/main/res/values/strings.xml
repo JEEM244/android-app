@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MI_APP_SOP_E4_EA_JEEM</string>
+    <string name="menu_title">Menú de Actividades</string>
+    <string name="btn_quiz">PIA</string>
+    <string name="btn_colors">Etapa 4 Evidencia</string>
+    <string name="footer_text">Jesus Elias Escobedo Martinez\nTécnico Desarrollador Web - Grupo 4L1</string>
+    
+    <!-- Quiz Strings -->
+    <string name="quiz_title">Cuestionario PIA</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="msg_select_option">Por favor selecciona una opción</string>
+    <string name="results_correct">Correctas: %1$d</string>
+    <string name="results_incorrect">Incorrectas: %1$d</string>
+    <string name="incorrect_list_header">Preguntas incorrectas:</string>
+    <string name="perfect_score">¡Felicidades! Todo correcto.</string>
+    <string name="question_count">Pregunta %1$d de %2$d</string>
+
+    <!-- Color Strings -->
+    <string name="select_color_title">Selecciona un Color</string>
+    <string name="color_rojo">Rojo</string>
+    <string name="color_azul">Azul</string>
+    <string name="color_verde">Verde</string>
+    <string name="color_amarillo">Amarillo</string>
+    <string name="color_negro">Negro</string>
+    <string name="color_blanco">Blanco</string>
+    <string name="color_morado">Morado</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_magenta">Magenta</string>
+    <string name="color_gris">Gris</string>
+    <!-- Calculadora Strings -->
+    <string name="btn_calculadora">Etapa 4 Dimensión 3</string>
+    <string name="label_quiz">Cuestionario de conocimientos</string>
+    <string name="label_colors">Selección de colores</string>
+    <string name="label_calculadora">Calculadora básica</string>
+    <string name="calculadora_title">Calculadora</string>
+    <string name="hint_num1">Primer número</string>
+    <string name="hint_num2">Segundo número</string>
+    <string name="op_suma">Suma</string>
+    <string name="op_resta">Resta</string>
+    <string name="op_multiplicacion">Multiplicación</string>
+    <string name="op_division">División</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="result_text">Resultado:</string>
+    <string name="error_empty_fields">Por favor ingresa ambos números</string>
+    <string name="error_div_zero">No se puede dividir entre cero</string>
+    <string name="footer_calc_text">Jesus Elias Escobedo Martinez - Grupo 4L1 - Programación Web</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculadora_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_num1"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_num2"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="24dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgOperations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+        
+        <RadioButton
+            android:id="@+id/rbSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op_suma"
+            android:checked="true"
+            android:textSize="18sp"/>
+            
+        <RadioButton
+            android:id="@+id/rbResta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op_resta"
+            android:textSize="18sp"/>
+            
+        <RadioButton
+            android:id="@+id/rbMultiplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op_multiplicacion"
+            android:textSize="18sp"/>
+            
+        <RadioButton
+            android:id="@+id/rbDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op_division"
+            android:textSize="18sp"/>
+            
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/btn_calcular"
+        android:textSize="18sp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_calc_text"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gray"/>
+
+</LinearLayout>
